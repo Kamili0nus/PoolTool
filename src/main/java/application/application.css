@@ -1,0 +1,222 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.button { /* FX theme stylesheet */
+-fx-alignment: CENTER;
+-fx-background-color: #ff6600;
+-fx-background-insets: 0px 0px -1px 0px, 0px, 1px, 2px;
+-fx-background-radius: 5px, 5px, 4px, 3px;
+-fx-content-display: LEFT;
+-fx-padding: 0.166667em 0.833333em 0.25em 0.833333em;
+-fx-text-fill: #ffffff;	
+-fx-font-family: 'Arial Black';
+}
+
+.check-box:selected .mark {
+    -fx-background-color: #ff6600;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #ffffff;
+}
+
+.menu-bar{
+	    -fx-background-color: 	#000000;
+	
+}
+
+.menu-bar *.label {
+	-fx-text-fill: #ffffff;	
+	
+}
+
+.context-menu {
+    -fx-background-color: #ff6600;
+    -fx-text-fill: #ffffff;	
+}
+
+.pane{ 
+	   -fx-border-color: #ffffff;	
+	    
+}
+
+.tab-pane>*.tab-content-area { /* FX theme stylesheet */
+/*-fx-background-image: url("symbol_square.jpg");
+-fx-background-repeat: no-repeat;
+ -fx-background-position: right top; */
+ -fx-background-image: url("application/gradient6.png");
+}
+
+.tab-pane>*.tab-header-area>*.headers-region>*.tab:selected { /* FX theme stylesheet */
+-fx-background-color: #ff6600;
+}
+
+
+.split-pane{ 
+     -fx-background-color: #ffffff;
+    -fx-background-radius: 5px, 5px, 4px, 3px;
+}
+
+.table-view {
+-fx-background-radius: 5px, 5px, 4px, 3px;
+-fx-border-color: #ff6600;	
+-fx-border-radius: 5px, 5px, 4px, 3px;
+-fx-padding: 0px;
+}
+
+.table-view *.text {
+-fx-text-fill: #ffffff;	
+-fx-background-insets: 0px, 0px;
+}
+
+.table-view *.column-header { /* FX theme stylesheet */
+-fx-font-family: 'Arial Black';
+
+-fx-background-color: #ff6600;
+-fx-background-insets: 0px, 0px 1px 1px 0px, 1px 2px 2px 1px;
+-fx-padding: 0em;
+
+}
+
+.table-view *.column-header *.label { /* FX theme stylesheet */
+-fx-text-fill: #ffffff;	
+
+}
+
+.table-view>*.virtual-flow>*.corner { /* FX theme stylesheet */
+-fx-background-color: #ffffff;
+  -fx-border-color: #ff6600;
+}
+
+.table-view *.filler { /* FX theme stylesheet */
+-fx-border-color: #ff6600;
+-fx-background-color: #ff6600;
+-fx-padding: 0.166667em;
+}
+
+.table-cell { /* FX theme stylesheet */
+-fx-background-color: null;
+-fx-border-color: transparent -fx-table-cell-border-color transparent transparent;
+-fx-padding: 0.166667em;
+}
+
+
+
+.scroll-bar>*.thumb { /* FX theme stylesheet */
+-fx-background-color: #ff6600;
+-fx-background-insets: 2px, 3px, 4px;
+-fx-background-radius: 3px, 2px, 1px;
+}
+
+.scroll-bar>*.decrement-button { /* FX theme stylesheet */
+-fx-padding: 0.25em;
+-fx-background-color: #ff6600;
+}
+.scroll-bar>*.increment-button { /* FX theme stylesheet */
+-fx-padding: 0.25em;
+-fx-background-color: #ff6600;
+}
+.scroll-bar>*.decrement-button>*.decrement-arrow { /* FX theme stylesheet */
+-fx-background-color: #ffffff;
+}
+
+.scroll-bar>*.increment-button>*.increment-arrow { /* FX theme stylesheet */
+-fx-background-color: #ffffff;
+}
+
+.scroll-bar>*.track { /* FX theme stylesheet */
+-fx-border-color: #ff6600;
+}
+
+
+.context-menu {
+    -fx-background-color: #ff6600;
+    -fx-text-fill: #ffffff;	
+}
+
+.pane{ 
+	   -fx-border-color: #ffffff;	
+	    
+}
+
+.tab-pane>*.tab-header-area>*.headers-region>*.tab:selected { /* FX theme stylesheet */
+-fx-background-color: #ff6600;
+}
+
+
+
+.split-pane{ 
+     -fx-background-color: #ffffff;
+    -fx-background-radius: 5px, 5px, 4px, 3px;
+}
+
+.split-pane{ 
+     -fx-background-color: #ffffff;
+    -fx-background-radius: 5px, 5px, 4px, 3px;
+}
+
+.table-view {
+-fx-background-radius: 5px, 5px, 4px, 3px;
+-fx-border-color: #ff6600;	
+-fx-border-radius: 5px, 5px, 4px, 3px;
+-fx-padding: 0px;
+}
+
+.table-view *.text {
+-fx-text-fill: #ffffff;	
+-fx-background-insets: 0px, 0px;
+}
+
+.table-view *.column-header { /* FX theme stylesheet */
+-fx-font-family: 'Arial Black';
+
+-fx-background-color: #ff6600;
+}
+
+.table-view *.column-header *.label { /* FX theme stylesheet */
+-fx-text-fill: #ffffff;	
+
+}
+
+.table-view>*.virtual-flow>*.corner { /* FX theme stylesheet */
+-fx-background-color: #ffffff;
+  -fx-border-color: #ff6600;
+}
+
+.table-view *.filler { /* FX theme stylesheet */
+-fx-border-color: #ff6600;
+-fx-background-color: #ff6600;
+-fx-padding: 0.166667em;
+}
+
+.table-cell { /* FX theme stylesheet */
+-fx-border-color: transparent -fx-table-cell-border-color transparent transparent;
+-fx-padding: 0.166667em;
+}
+
+
+
+.scroll-bar>*.thumb { /* FX theme stylesheet */
+-fx-background-color: #ff6600;
+-fx-background-insets: 2px, 3px, 4px;
+-fx-background-radius: 3px, 2px, 1px;
+}
+
+.scroll-bar>*.decrement-button { /* FX theme stylesheet */
+-fx-padding: 0.25em;
+-fx-background-color: #ff6600;
+}
+.scroll-bar>*.increment-button { /* FX theme stylesheet */
+-fx-padding: 0.25em;
+-fx-background-color: #ff6600;
+}
+.scroll-bar>*.decrement-button>*.decrement-arrow { /* FX theme stylesheet */
+-fx-background-color: #ffffff;
+}
+
+.scroll-bar>*.increment-button>*.increment-arrow { /* FX theme stylesheet */
+-fx-background-color: #ffffff;
+}
+
+.scroll-bar>*.track { /* FX theme stylesheet */
+-fx-border-color: #ff6600;
+}
+
